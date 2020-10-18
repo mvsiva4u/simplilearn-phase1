@@ -3,7 +3,8 @@
     overflow-x: hidden;
     height: 100%;
     background-color: #B0BEC5;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    width:auto;
 } */
 * {
     box-sizing: border-box
@@ -35,9 +36,10 @@ select,
     height: 40px
 }
 
-nav {
+/* nav {
     padding: 0px 100px
-}
+
+} */
 
 .fa-user-o,
 .fa-shopping-cart {
@@ -93,7 +95,10 @@ h6 {
     position: absolute;
     top: 2%
 }
-
+.bg-blue {
+    color: #fff;
+    background-color: #1A237E
+}
 @media(min-width:1200px) {
     #search {
         width: 300px;
